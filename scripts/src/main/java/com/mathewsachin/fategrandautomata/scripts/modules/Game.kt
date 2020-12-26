@@ -31,17 +31,16 @@ class Game @Inject constructor(
         val menuScreenRegion = Region(2100, 1200, 1000, 1000)
         val menuStorySkipRegion = Region(2240, 20, 300, 120)
 
-        val menuSelectQuestClick = Location(2290, 440)
+        val menuSelectQuestClick = Location(2162, 487)
         val menuStartQuestClick = Location(2400, 1350)
-
         val menuStorySkipClick = Location(2360, 80)
 
-        val supportScreenRegion = Region(0, 0, 200, 400)
+        val supportScreenRegion = Region(160, 0, 200, 400)
         val supportListRegion = Region(70, 332, 378, 1091) // see docs/support_list_region.png
         val supportFriendsRegion = Region(448, 332, 1210, 1091)
 
-        val supportMaxAscendedRegion = Region(376, 0, 16, 120)
-        val supportLimitBreakRegion = Region(376, 0, 16, 90)
+        val supportMaxAscendedRegion = Region(536, 0, 16, 120)
+        val supportLimitBreakRegion = Region(536, 0, 16, 90)
         val supportFriendRegion = Region(
             2234,
             supportListRegion.Y,
@@ -49,28 +48,28 @@ class Game @Inject constructor(
             supportListRegion.Height
         ) // see docs/friend_region.png
 
-        val supportUpdateClick = Location(1670, 250)
+        val supportUpdateClick = Location(1882, 250)
         val supportListTopClick = Location(2480, 360)
-        val supportFirstSupportClick = Location(1900, 500)
+        val supportFirstSupportClick = Location(2060, 500)
 
-        val supportRegionToolSearchRegion = Region(2100, 0, 370, 1440)
-        val supportDefaultBounds = Region(76, 0, 2356, 428)
-        val supportDefaultCeBounds = Region(76, 270, 378, 150)
-        val supportExtraRegion = Region(1200, 200, 130, 130)
-        val supportNotFoundRegion = Region(468, 708, 100, 90)
+        val supportRegionToolSearchRegion = Region(2260, 0, 370, 1440)
+        val supportDefaultBounds = Region(236, 0, 2356, 428)
+        val supportDefaultCeBounds = Region(236, 270, 378, 150)
+        val supportExtraRegion = Region(1360, 200, 130, 130)
+        val supportNotFoundRegion = Region(628, 708, 100, 90)
 
-        val battleScreenRegion = Region(2105, 1259, 336, 116) // see docs/battle_region.png
+        val battleScreenRegion = Region(2379, 1259, 336, 116)
 
-        val battleAttackClick = Location(2300, 1200)
+        val battleAttackClick = Location(2486, 1222)
 
-        val battleMasterSkillOpenClick = Location(2380, 640)
+        val battleMasterSkillOpenClick = Location(2659, 635)
 
-        val battleBack = Location(2400, 1370)
+        val battleBack = Location(2637, 1320)
 
         val resultScreenRegion = Region(100, 300, 700, 200)
         val resultBondRegion = Region(2000, 750, 120, 190)
         val resultMasterExpRegion = Region(1280, 350, 400, 110)
-        val resultMatRewardsRegion = Region(2080, 1220, 280, 200)
+        val resultMatRewardsRegion = Region(2280, 1220, 280, 200)
         val resultMasterLvlUpRegion = Region(1990, 160, 250, 270)
 
         val resultCeRewardRegion = Region(1050, 1216, 33, 28)
@@ -88,7 +87,7 @@ class Game @Inject constructor(
         val friendPtSummonCheck = Region(1380, 1220, 75, 75)
         val continueSummonRegion = Region(1244, 1264, 580, 170)
 
-        val finishedLotteryBoxRegion = Region(500, 860, 180, 100)
+        val finishedLotteryBoxRegion = Region(535, 860, 180, 100)
     }
 
     val scriptArea =

@@ -21,6 +21,8 @@ class DroidCvPattern(
     private val OwnsMat: Boolean = true
 ) : IPattern {
     private companion object {
+
+
         fun makeMat(Stream: InputStream): Mat {
             val byteArray = Stream.readBytes()
 
