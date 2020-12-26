@@ -87,7 +87,7 @@ class Game @Inject constructor(
         val friendPtSummonCheck = Region(1380, 1220, 75, 75)
         val continueSummonRegion = Region(1244, 1264, 580, 170)
 
-        val finishedLotteryBoxRegion = Region(535, 860, 180, 100)
+        val finishedLotteryBoxRegion = Region(635, 860, 180, 100)
     }
 
     val scriptArea =

@@ -15,10 +15,10 @@ class AutoLottery @Inject constructor(
 ) : EntryPoint(exitManager), IFgoAutomataApi by fgAutomataApi {
     private val spinClick = Location(900, 860)
 
-    private val fullPresentBoxRegion = Region(1300, 860, 1000, 500)
+    private val fullPresentBoxRegion = Region(1500, 860, 1000, 500)
     private val resetClick = Location(2500, 480)
-    private val resetConfirmationClick = Location(1870, 1122)
-    private val resetCloseClick = Location(1060, 1120)
+    private val resetConfirmationClick = Location(2000, 1122)
+    private val resetCloseClick = Location(1300, 1120)
 
     private fun spin() {
         // Don't increase this too much or you'll regret when you're not able to stop the script

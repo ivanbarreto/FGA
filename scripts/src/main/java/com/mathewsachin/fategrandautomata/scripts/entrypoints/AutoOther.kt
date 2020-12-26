@@ -19,7 +19,7 @@ class AutoOther @Inject constructor(
     fgAutomataApi: IFgoAutomataApi
 ) : EntryPoint(exitManager), IFgoAutomataApi by fgAutomataApi {
     override fun script(): Nothing {
-        val lotteryCheckRegion = Region(150, 800, 340, 230)
+        val lotteryCheckRegion = Region(300, 800, 340, 230)
 
         1.seconds.wait()
 
