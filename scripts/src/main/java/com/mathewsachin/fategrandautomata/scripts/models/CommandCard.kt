@@ -31,7 +31,7 @@ sealed class CommandCard(
                     clickLocation = Location(300+120, 1000),
                     affinityRegion = Region(295+120, 650, 250, 200),
                     typeRegion = Region(0+120, 1060, 512, 200),
-                    servantMatchRegion = Region(106+120, 800, 300, 200),
+                    servantMatchRegion = Region(106+200, 800, 300, 200),
                     servantCropRegion = Region(200+120, 890, 115, 85)
                 ),
                 Face(
@@ -39,7 +39,7 @@ sealed class CommandCard(
                     clickLocation = Location(750+120, 1000),
                     affinityRegion = Region(810+120, 650, 250, 200),
                     typeRegion = Region(512+120, 1060, 512, 200),
-                    servantMatchRegion = Region(620+120, 800, 300, 200),
+                    servantMatchRegion = Region(620+200, 800, 300, 200),
                     servantCropRegion = Region(714+120, 890, 115, 85)
                 ),
                 Face(
@@ -47,7 +47,7 @@ sealed class CommandCard(
                     clickLocation = Location(1300+120, 1000),
                     affinityRegion = Region(1321+120, 650, 250, 200),
                     typeRegion = Region(1024+120, 1060, 512, 200),
-                    servantMatchRegion = Region(1130+120, 800, 300, 200),
+                    servantMatchRegion = Region(1130+200, 800, 300, 200),
                     servantCropRegion = Region(1224+120, 890, 115, 85)
                 ),
                 Face(
@@ -55,7 +55,7 @@ sealed class CommandCard(
                     clickLocation = Location(1800+120, 1000),
                     affinityRegion = Region(1834+120, 650, 250, 200),
                     typeRegion = Region(1536+120, 1060, 512, 200),
-                    servantMatchRegion = Region(1644+120, 800, 300, 200),
+                    servantMatchRegion = Region(1644+200, 800, 300, 200),
                     servantCropRegion = Region(1738+120, 890, 115, 85)
                 ),
                 Face(
@@ -63,7 +63,7 @@ sealed class CommandCard(
                     clickLocation = Location(2350+120, 1000),
                     affinityRegion = Region(2348+120, 650, 250, 200),
                     typeRegion = Region(2048+120, 1060, 512, 200),
-                    servantMatchRegion = Region(2160+120, 800, 300, 200),
+                    servantMatchRegion = Region(2160+200, 800, 300, 200),
                     servantCropRegion = Region(2254+120, 890, 115, 85)
                 )
             )
@@ -89,20 +89,20 @@ sealed class CommandCard(
                 NP(
                     clickLocation = Location(1000-80, 220),
                     autoSkillCode = '4',
-                    servantMatchRegion = Region(678-80, 190, 300, 200),
-                    servantCropRegion = Region(762-80, 290, 115, 65)
+                    servantMatchRegion = Region(778, 190, 300, 200),
+                    servantCropRegion = Region(712, 290, 115, 65)
                 ),
                 NP(
                     clickLocation = Location(1300, 400),
                     autoSkillCode = '5',
-                    servantMatchRegion = Region(1138, 190, 300, 200),
-                    servantCropRegion = Region(1230, 290, 115, 65)
+                    servantMatchRegion = Region(1238, 190, 300, 200),
+                    servantCropRegion = Region(1350, 290, 115, 65)
                 ),
                 NP(
                     clickLocation = Location(1740+80, 400),
                     autoSkillCode = '6',
-                    servantMatchRegion = Region(1606+80, 190, 300, 200),
-                    servantCropRegion = Region(1694+80, 290, 115, 65)
+                    servantMatchRegion = Region(1606+180, 190, 300, 200),
+                    servantCropRegion = Region(1694+180, 290, 115, 65)
                 )
             )
         }

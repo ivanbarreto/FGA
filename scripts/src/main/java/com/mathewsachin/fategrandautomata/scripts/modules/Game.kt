@@ -60,11 +60,11 @@ class Game @Inject constructor(
 
         val battleScreenRegion = Region(2379, 1259, 336, 116)
 
-        val battleAttackClick = Location(2486, 1222)
+        val battleAttackClick = Location(2536, 1222)
 
         val battleMasterSkillOpenClick = Location(2659, 635)
 
-        val battleBack = Location(2637, 1320)
+        val battleBack = Location(2737, 1320)
 
         val resultScreenRegion = Region(100, 300, 700, 200)
         val resultBondRegion = Region(2000, 750, 120, 190)
@@ -148,7 +148,7 @@ class Game @Inject constructor(
     val battleStageCountRegion
         get() = when (prefs.gameServer) {
             GameServerEnum.Tw -> Region(1710, 25, 55, 60)
-            GameServerEnum.Jp -> Region(2070, 28, 31, 44)
+            GameServerEnum.Jp -> Region(2090, 28, 31, 44)
             else -> Region(1722, 25, 46, 53)
         }
 }
