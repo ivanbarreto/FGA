@@ -1,3 +1,8 @@
+This is my fork of the main FGA app to get it working for taller screens (2,960 x 1,440).
+This should work with slightly shorter screens, as long as the aspect ratio is not too different from mine.
+
+You can check what's working and download my version of the APK in the [Wiki](https://github.com/ivanbarreto/FGA/wiki)
+
 # Fate/Grand Automata
 [![CI](https://github.com/MathewSachin/Fate-Grand-Automata/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/MathewSachin/Fate-Grand-Automata/actions)
 
