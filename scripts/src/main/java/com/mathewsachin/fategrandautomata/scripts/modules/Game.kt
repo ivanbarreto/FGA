@@ -148,7 +148,7 @@ class Game @Inject constructor(
     val battleStageCountRegion
         get() = when (prefs.gameServer) {
             GameServerEnum.Tw -> Region(1710, 25, 55, 60)
-            GameServerEnum.Jp -> Region(1569, 125, 51, 35)
+            GameServerEnum.Jp -> Region(2070, 28, 31, 44)
             else -> Region(1722, 25, 46, 53)
         }
 }

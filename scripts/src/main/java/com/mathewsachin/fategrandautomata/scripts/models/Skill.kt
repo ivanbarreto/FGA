@@ -21,7 +21,7 @@ sealed class Skill(
                 Servant(Location(1230, 1155), 'f'),
 
                 Servant(Location(1500, 1155), 'g'),
-                Servant(Location(1685, 1155), 'h'),
+                Servant(Location(1700, 1155), 'h'),
                 Servant(Location(1865, 1155), 'i')
             )
         }
