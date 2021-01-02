@@ -32,15 +32,15 @@ class Game @Inject constructor(
         val menuStorySkipRegion = Region(2240, 20, 300, 120)
 
         val menuSelectQuestClick = Location(2162, 487)
-        val menuStartQuestClick = Location(2400, 1350)
+        val menuStartQuestClick = Location(2600, 1350)
         val menuStorySkipClick = Location(2360, 80)
 
         val supportScreenRegion = Region(160, 0, 200, 400)
-        val supportListRegion = Region(70, 332, 378, 1091) // see docs/support_list_region.png
+        val supportListRegion = Region(310, 332, 378, 1091) // see docs/support_list_region.png
         val supportFriendsRegion = Region(448, 332, 1210, 1091)
 
-        val supportMaxAscendedRegion = Region(536, 0, 16, 120)
-        val supportLimitBreakRegion = Region(536, 0, 16, 90)
+        val supportMaxAscendedRegion = Region(615, 0, 16, 120)
+        val supportLimitBreakRegion = Region(615, 0, 16, 90)
         val supportFriendRegion = Region(
             2234,
             supportListRegion.Y,
